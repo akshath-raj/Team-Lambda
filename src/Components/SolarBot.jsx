@@ -11,7 +11,7 @@ const Falcon9Page = () => {
     <div className="falcon9-page">
       {/* <Navbar /> */}
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section slide-up">
         <div className="hero-content">
           <h1 className="heading">SOLARIS V3</h1>
           <p>
@@ -21,7 +21,7 @@ const Falcon9Page = () => {
         </div>
       </section>
       {/* Specifications Section */}
-      <section className="specs-section">
+      <section className="specs-section slide-up">
         <h2>Specifications</h2>
         <div className="specs-grid">
           <div className="spec-box">
@@ -43,7 +43,7 @@ const Falcon9Page = () => {
         </div>
       </section>
       {/* Features Sections */}
-      <section className="feature-section feature-dark">
+      <section className="feature-section feature-dark slide-up">
         <div className="feature-content">
           <h2>Intelligent and Autonomous Operation</h2>
           <p>
@@ -60,7 +60,7 @@ const Falcon9Page = () => {
         />
       </section>
 
-      <section className="feature-section feature-light">
+      <section className="feature-section feature-light slide-up">
         <div className="feature-content">
           <h2>Advanced Cleaning and Safety Mechanisms</h2>
           <p>
@@ -77,7 +77,7 @@ const Falcon9Page = () => {
         />
       </section>
 
-      <section className="feature-section feature-dark">
+      <section className="feature-section feature-dark slide-up">
         <div className="feature-content">
           <h2>Eco-Friendly and Self-Sustaining Design</h2>
           <p>
@@ -92,7 +92,7 @@ const Falcon9Page = () => {
           className="feature-image"
         />
       </section>
-      <section className="feature-section feature-light">
+      <section className="feature-section feature-light slide-up">
         <div className="feature-content">
           <h2>Real-Time Monitoring and Data Insights</h2>
           <p>
@@ -109,8 +109,8 @@ const Falcon9Page = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="footer">
-        <h4 className="footer-text">© 2025 RenergyX</h4>
+      <footer className="footer slide-up">
+        <h4 className="footer-text">© 2025 Team Lambda</h4>
         <button className="go-to-top-button" onClick={scrollToTop}>
           Go to Top
         </button>
